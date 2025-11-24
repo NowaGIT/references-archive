@@ -1,0 +1,83 @@
+{
+  "live2d": {
+    "Head": {
+      "Eyes": [],
+      "Mouth": [],
+      "Expression": [],
+      "Hair": [],
+      "Other": []
+    },
+    "Body": {
+      "Angles": [
+        "https://x.com/ArtNiru/status/1986972290253201660",
+        "https://x.com/TakimiLive2D/status/1981479242555924763"
+      ],
+      "Arms": [],
+      "Chest": [],
+      "Legs": [],
+      "Other": []
+    },
+    "Clothing": {
+      "Skirt/Dress": [],
+      "Other": []
+    },
+    "Animal": {
+      "Ears": [],
+      "Tail": [],
+      "Muzzle": [],
+      "Pets": []
+    }
+  },
+  "arte": {
+    "Head": {
+      "Eyes": [],
+      "Mouth": [],
+      "Expression": [],
+      "Hair": [],
+      "Other": []
+    },
+    "Body": {
+      "Angles": [],
+      "Arms": [],
+      "Chest": [],
+      "Legs": [],
+      "Other": []
+    },
+    "Clothing": {
+      "Skirt/Dress": [],
+      "Other": []
+    },
+    "Animal": {
+      "Ears": [],
+      "Tail": [],
+      "Muzzle": [],
+      "Pets": []
+    }
+  },
+  "3d": {
+    "Head": {
+      "Eyes": [],
+      "Mouth": [],
+      "Expression": [],
+      "Hair": [],
+      "Other": []
+    },
+    "Body": {
+      "Angles": [],
+      "Arms": [],
+      "Chest": [],
+      "Legs": [],
+      "Other": []
+    },
+    "Clothing": {
+      "Skirt/Dress": [],
+      "Other": []
+    },
+    "Animal": {
+      "Ears": [],
+      "Tail": [],
+      "Muzzle": [],
+      "Pets": []
+    }
+  }
+}
