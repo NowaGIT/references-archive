@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>References Archive</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>References Archive</h1>
+    <p>Guardar y organizar videos embebidos por secciones.</p>
+  </header>
+
+  <main class="container">
+    <nav class="index">
+      <h2>Índice</h2>
+      <div class="sections">
+        <button class="toggle main-toggle" data-target="live2d">Live2D ▾</button>
+        <div id="live2d" class="panel"></div>
+
+        <button class="toggle main-toggle" data-target="arte">Arte ▾</button>
+        <div id="arte" class="panel"></div>
+
+        <button class="toggle main-toggle" data-target="3d">3D ▾</button>
+        <div id="3d" class="panel"></div>
+      </div>
+    </nav>
+
+    <section class="content">
+      <article id="live2d" class="section-block">
+        <h2>Live2D</h2>
+        <div class="subsections"></div>
+      </article>
+
+      <article id="arte" class="section-block">
+        <h2>Arte</h2>
+        <div class="subsections"></div>
+      </article>
+
+      <article id="3d" class="section-block">
+        <h2>3D</h2>
+        <div class="subsections"></div>
+      </article>
+    </section>
+  </main>
+
+  <template id="subsection-template">
+    <div class="subsection">
+      <button class="toggle sub-toggle">Subsecciones ▸</button>
+      <div class="subpanel"></div>
+    </div>
+  </template>
+
+  <template id="group-template">
+    <div class="group">
+      <h3 class="group-title"></h3>
+      <ul class="items"></ul>
+    </div>
+  </template>
+
+  <template id="item-template">
+    <li class="item">
+      <div class="item-row">
+        <strong class="item-title"></strong>
+        <div class="item-actions">
+          <button class="add-video">Agregar video</button>
+        </div>
+      </div>
+      <div class="videos"></div>
+    </li>
+  </template>
+
+  <script src="scripts.js" defer></script>
+</body>
+</html>
